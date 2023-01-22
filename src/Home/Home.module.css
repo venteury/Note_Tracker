@@ -1,0 +1,11 @@
+body{
+    background-image: url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 80px;
+    padding-left:160px;
+    margin-left: 35px;
+    margin-right: 10px;
+}
+

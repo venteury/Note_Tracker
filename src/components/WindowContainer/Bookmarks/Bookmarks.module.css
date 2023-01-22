@@ -1,0 +1,46 @@
+.noteContainer {
+  margin-top: 10px;
+  height: 600px;
+  overflow: auto;
+  padding: 15px;
+  text-align: justify;
+  font-size: 18px;
+  color: black;
+}
+
+.note {
+  background-color: rgba(4, 16, 18, 0.25);
+  opacity: 0.8;
+  border-radius: 8px;
+  padding-top: 20px;
+}
+
+.note a {
+  font-family: Montserrat;
+}
+.note p {
+  font-family: Montserrat;
+  font-size: 15px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+.date {
+  float: right;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(4, 16, 18, 0.25);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(4, 16, 18, 0.25);
+}
